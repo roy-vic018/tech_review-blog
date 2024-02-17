@@ -3,7 +3,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   height: 50vh;
 }
 
 .card{
@@ -15,8 +15,8 @@
       border-radius: 1.25rem;
       overflow: hidden;
    }
+   
    &__article{
-      width: 300px; // Remove after adding swiper js
       border-radius: 1.25rem;
       overflow: hidden;
    }
