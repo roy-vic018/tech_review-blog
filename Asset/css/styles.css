@@ -5,23 +5,33 @@ body {
     margin: 12px;
     padding: 12px;
     box-sizing: border-box;
-    background: var(--bg-color);
     color: var(--text-color);
+    background-image: url("https://img.freepik.com/free-vector/abstact-hexagon-background-memphis-style_1017-31955.jpg?w=996&t=st=1708180870~exp=1708181470~hmac=92469e59a7072ea103f45a6d61333b28be12814555c67f41736c0b82e71f76c8");
 }
 
 :root {
-    --bg-color: #564820;
-    --second-bg-color: #765a30;
+    --bg-color: #677b6c;
+    --second-bg-color: #455c49;
     --text-color: #ededed;
-    --main-color: #f59d06;
+    --main-color: #75987a;
 }
 
+.review img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 15px;
+}
 
 header {
     background-color: var(--second-bg-color);
+    border-radius: 15px;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+header p {
+  margin: 1rem ;
 }
 
 nav ul {
@@ -40,11 +50,25 @@ nav a {
 
 #home {
     background-color: var(--second-bg-color);
+    border-radius: 15px;
     padding: 5%;
+}
+
+#reviews {
+  background-color: var(--main-color);
+  border-radius: 15px;
+  padding: 5%;
+}
+
+#gadgets {
+  background-color: var(--second-bg-color);
+  border-radius: 15px;
+  padding: 5%;
 }
 
 main {
     padding: 20px;
+    flex: 1;
 }
 
 article {
@@ -66,16 +90,29 @@ article {
   }
   
   .comment-form button {
-    background-color: #333;
+    background-color:var(--bg-color);
     color: white;
+    display: block;
+    margin: 0 auto;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
   }
 
+#about {
+  background-color: var(--main-color);
+  border-radius: 15px;
+  padding: 5%;
+}
+
+#about h2 {
+  text-align: center;
+}
+
 footer {
-    background-color: #333;
+    background-color: var(--second-bg-color);
     color: #fff;
     text-align: center;
     padding: 1em ;
+    margin-top: auto;
 }
